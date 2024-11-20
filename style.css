@@ -1,7 +1,27 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: auto;
+    justify-content: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+}
+
 ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     list-style-type: none;
     gap: 20px;
+}
+
+img {
+    display: flex;
+    max-width: 400px;
 }
