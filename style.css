@@ -1,27 +1,122 @@
+* {
+    padding: 10;
+    margin: 10;
+}
+
 body {
     display: flex;
-    flex-wrap: wrap;
-    flex-shrink: auto;
-    justify-content: center;
-    align-content: center;
-    justify-content: space-around;
+    flex-direction: column;
 }
 
 header {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: row;
+    justify-content: end;
     justify-content: space-between;
+    background-color: #1f2937;
+    padding: 30px;
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    border-radius: 10px 10px 0px 0px
+}
+
+.headerlogo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
 }
 
 ul {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    list-style-type: none;
+    list-style: none;
     gap: 20px;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 img {
     display: flex;
-    max-width: 400px;
+    width: 220px;
+    height: 190px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #3882f6;
+}
+
+.segmentone {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: #1f2937;
+    color: #f9faf8;
+    border-radius: 0px 0px 10px 10px;
+    padding: 20px;
+}
+
+.segmenttwo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.segmentthree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    background-color: #e5e7eb;
+    font-size: 17px;
+    color: #1f2937;
+    font-style: italic;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.segmentfour {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 10px;
+}
+
+.button2 {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 10px;
+}
+
+.button1 {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    border-radius: 10px;
+}
+.catpics {
+    display: flex;
+    flex-direction: row;
 }
