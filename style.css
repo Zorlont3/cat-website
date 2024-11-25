@@ -83,6 +83,10 @@ img {
     border-radius: 10px;
 }
 
+.catpics {
+    color: black;
+}
+
 .segmentfour {
     display: flex;
     flex-direction: row;
